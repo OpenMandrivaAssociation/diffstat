@@ -6,6 +6,7 @@ Group: 		Development/Other
 License: 	GPL-like
 URL: 		http://dickey.his.com/diffstat/diffstat.html
 Source: 	ftp://invisible-island.net/diffstat/%name-%version.tar.bz2
+BuildRoot: 	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 The diff command compares files line by line.  Diffstat reads the output
