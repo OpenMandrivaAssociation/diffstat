@@ -1,6 +1,6 @@
 Summary: 	A utility which provides statistics based on the output of diff
 Name: 		diffstat
-Version: 	1.48
+Version: 	1.49
 Release: 	%mkrel 1
 Group: 		Development/Other
 License: 	GPL-like
