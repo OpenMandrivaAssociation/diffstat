@@ -1,11 +1,11 @@
 Summary: 	A utility which provides statistics based on the output of diff
 Name: 		diffstat
-Version: 	1.51
+Version: 	1.53
 Release: 	%mkrel 1
 Group: 		Development/Other
 License: 	GPL-like
 URL: 		http://dickey.his.com/diffstat/diffstat.html
-Source: 	ftp://invisible-island.net/diffstat/%name-%version.tar.bz2
+Source: 	ftp://invisible-island.net/diffstat/%name-%version.tgz
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
@@ -21,12 +21,12 @@ diff command's output.  You'll need to also install diffutils.
 %setup -q
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%makeinstall mandir=$RPM_BUILD_ROOT%_mandir
+%makeinstall_std
 
 %clean
 rm -rf $RPM_BUILD_ROOT
