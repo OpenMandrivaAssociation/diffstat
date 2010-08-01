@@ -1,7 +1,7 @@
 Summary: 	A utility which provides statistics based on the output of diff
 Name: 		diffstat
 Version: 	1.53
-Release: 	%mkrel 2
+Release: 	%mkrel 3
 Group: 		Development/Other
 License: 	GPL-like
 URL: 		http://dickey.his.com/diffstat/diffstat.html
