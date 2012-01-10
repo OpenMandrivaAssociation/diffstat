@@ -1,12 +1,12 @@
-Summary: 	A utility which provides statistics based on the output of diff
-Name: 		diffstat
-Version: 	1.54
-Release: 	%mkrel 4
-Group: 		Development/Other
-License: 	GPL-like
-URL: 		http://dickey.his.com/diffstat/diffstat.html
-Source: 	ftp://invisible-island.net/diffstat/%name-%version.tgz
-BuildRoot: 	%{_tmppath}/%{name}-%{version}-buildroot
+Summary:	A utility which provides statistics based on the output of diff
+Name:		diffstat
+Version:	1.55
+Release:	%mkrel 1
+Group:		Development/Other
+License:	GPL-like
+URL:		http://dickey.his.com/diffstat/diffstat.html
+Source:		ftp://invisible-island.net/diffstat/%{name}-%{version}.tgz
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 The diff command compares files line by line.  Diffstat reads the output
@@ -25,11 +25,11 @@ diff command's output.  You'll need to also install diffutils.
 %make
 
 %install
-rm -rf %{buildroot}
+%__rm -rf %{buildroot}
 %makeinstall_std
 
 %clean
-rm -rf %{buildroot}
+%__rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
