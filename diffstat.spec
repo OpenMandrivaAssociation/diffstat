@@ -1,7 +1,7 @@
 Summary: 	A utility which provides statistics based on the output of diff
 Name: 		diffstat
 Version: 	1.57
-Release: 	3
+Release: 	4
 Group: 		Development/Other
 License: 	GPL-like
 Url: 		http://dickey.his.com/diffstat/diffstat.html
