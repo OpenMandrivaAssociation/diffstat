@@ -1,7 +1,7 @@
 Summary: 	A utility which provides statistics based on the output of diff
 Name: 		diffstat
-Version: 	1.57
-Release: 	9
+Version: 	1.61
+Release: 	1
 Group: 		Development/Other
 License: 	GPL-like
 Url: 		http://dickey.his.com/diffstat/diffstat.html
@@ -20,7 +20,7 @@ diff command's output.  You'll need to also install diffutils.
 %setup -q
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
