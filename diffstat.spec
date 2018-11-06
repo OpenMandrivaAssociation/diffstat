@@ -1,7 +1,7 @@
 Summary: 	A utility which provides statistics based on the output of diff
 Name: 		diffstat
-Version: 	1.61
-Release: 	3
+Version: 	1.62
+Release: 	1
 Group: 		Development/Other
 License: 	GPL-like
 Url: 		http://dickey.his.com/diffstat/diffstat.html
@@ -17,17 +17,16 @@ Install diffstat if you need a program which provides a summary of the
 diff command's output.  You'll need to also install diffutils.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc CHANGES
 %{_bindir}/diffstat
 %{_mandir}/man1/*
-
