@@ -1,11 +1,11 @@
 Summary: 	A utility which provides statistics based on the output of diff
 Name: 		diffstat
-Version: 	1.62
+Version: 	1.63
 Release: 	1
 Group: 		Development/Other
 License: 	GPL-like
 Url: 		http://dickey.his.com/diffstat/diffstat.html
-Source0: 	ftp://invisible-island.net/diffstat/%name-%version.tgz
+Source0: 	https://invisible-mirror.net/archives/diffstat/%{name}-%{version}.tgz
 
 %description
 The diff command compares files line by line.  Diffstat reads the output
