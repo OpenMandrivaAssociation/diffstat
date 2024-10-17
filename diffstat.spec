@@ -4,7 +4,7 @@ Version: 	1.66
 Release: 	1
 Group: 		Development/Other
 License: 	GPL-like
-Url: 		http://dickey.his.com/diffstat/diffstat.html
+Url: 		https://dickey.his.com/diffstat/diffstat.html
 Source0: 	https://invisible-mirror.net/archives/diffstat/%{name}-%{version}.tgz
 
 %description
