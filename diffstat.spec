@@ -7,6 +7,11 @@ License: 	GPL-like
 Url: 		https://dickey.his.com/diffstat/diffstat.html
 Source0: 	https://invisible-mirror.net/archives/diffstat/%{name}-%{version}.tgz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 The diff command compares files line by line.  Diffstat reads the output
 of the diff command and displays a histogram of the insertions, deletions
